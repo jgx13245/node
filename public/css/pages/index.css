@@ -1,0 +1,220 @@
+/*对bootstorp样式的重置*/
+.navbar {
+	border-radius:0;
+}
+.alert-info{
+	margin: 0 30px;
+}
+/*这部分代码是对页面级别的操作*/
+*{
+	list-style:none; 
+}
+.footer-wrap{
+	width: 100%;
+	height: 500px;
+	border:1px solid #f00;
+	background: #101010;
+
+}
+
+#bottom{
+	float: left;
+	width:1190px;
+	margin:0 auto;
+	padding-top:20px;
+	font-size: 12px;
+	height:125px; 
+}
+#bottom ul a{ 
+	float: left;
+	font-size:12px;
+	color:#003333;
+}
+#bottom ul:first-child{
+	padding-left:410px;
+}
+#bottom ul:first-child a{
+	padding:0 16px;
+	border-right:1px solid #d5ccd5;
+
+} 
+#bottom ul:first-child a:hover{
+	color:#f99;
+}
+ #bottom ul:first-child li:last-child a{
+ 	border:none;
+ }
+#bottom	.ul_2{
+	padding-left:267px;
+	padding-top:10px;
+}
+#bottom	.ul_2 li a{
+	padding:0 12px ;
+	border-right: 1px solid #ddd;
+	color:#e2d5cc;
+} 
+#bottom	.ul_2 li a:last-child{
+	border:none;
+}
+#bottom	p{
+	padding-left:410px;
+	padding-top:10px;
+	color:#999;
+}
+#bottom .change p:hover{
+	color:#ddd;
+}
+ #bottom .ul_3{
+ 	padding-left:376px; 
+ 	height: 20px;
+ }
+#bottom .ul_3 li{
+	float: left;
+	height: 20px;
+	margin-right:22px;
+	
+}
+#bottom .ul_3 li img{
+	float: left;
+}
+#bottom .ul_3 li span{
+	margin-left:16px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	color:#999;
+}
+#bottom .ul_3 li strong{
+	width:20px;
+	height: 20px;
+	float:left;
+}
+#bottom .ul_3 li strong img{
+	width:100%;
+	height: 100%;
+
+}
+/*************************footer**************************/
+#footer{
+	height: 102px;
+	
+	margin:0 auto;
+}
+#footer ul{ 
+	float: left;
+}
+#footer ul li{
+	float: left;
+	font-size:12px;
+	color:#a59999;
+}	 
+#footer .ul_1{
+	width:820px;
+	padding-left:390px;
+	height: 12px;
+} 
+#footer .ul_1 a{
+	padding:0 15px;
+	border-right:1px solid #d5ccd5;
+	color:#000;
+}
+#footer .ul_1 li:last-child a{
+	border:none;
+
+}
+#footer .ul_2{
+	width:800px;
+ 	padding-left:380px;	
+	height: 12px;
+	padding-top:12px;
+}
+#footer .ul_2 li{
+	padding:0 15px;
+	border-right:1px solid #ddd;
+}
+#footer .ul_2 li:last-child{
+	border:none;
+}
+#footer .ul_3{
+	width:950px;
+	padding-left:240px;
+ 	padding-top:22px;
+	height: 12px;
+}
+#footer .ul_3 li{
+	padding:0 15px;
+	border-right: 1px solid #ddd;
+}
+#footer .ul_4{
+	width:1120px;
+	padding-left:70px;
+	 padding-top:10px;
+	height: 12px;
+}
+#footer .ul_4 li{
+	padding:0 15px;
+	border-right: 1px solid #ddd;
+}
+/***********************************新手入门****************************************/
+
+#new_people{
+	background:#101010;
+	width:100%;
+	height:220px;
+	padding-top:54px;
+	/*background:#f4f4f4; */
+	/*padding-left:45px;*/
+	padding-right:45px;
+	float:left; 
+	/*margin-left: 50px;*/
+}
+#new_people .ul_title{
+	padding-left:56px; 
+	height: 40px;
+}
+#new_people .ul_title a{
+	width:220px;
+	float:left;
+}
+#new_people .ul_title a img{
+	float: left;
+
+}
+#new_people .ul_title a p{
+	float:left;
+	height: 40px;
+	line-height: 40px;
+	font-size:16px;
+	color:#000;
+	margin-left:15px;
+}
+#new_people .ul_list{
+	padding-left:110px;
+}
+#new_people .ul_list ul{
+	float: left; 
+	width:210px;
+	height: 170px;
+}
+#new_people .ul_list ul a{
+	 float:left;
+	 width: 220px;
+	 color:#666;
+	 height: 26px;
+	 line-height: 26px;
+	 font-size: 12px;
+}
+#new_people .ul_list ul a:hover{
+	color:#b90005;
+	text-decoration: underline;
+}
+#new_people .ul_list ul:last-child{
+	width:190px;
+	float: left;
+}
+.js-deleBtn{
+	cursor: pointer;
+}
+.js-update{
+	cursor: pointer;
+}

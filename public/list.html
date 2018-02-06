@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>列表页</title>
+	<link rel="stylesheet" type="text/css" href="css/base/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/pages/index.css" />
+</head>
+
+<body>
+	<!--头部区域-->
+	<div id="wrap"></div>
+	<div class="alert alert-info" role="alert">这旮旯是列表页，没毛病，老铁 双击6666666666666666</div>
+	<!--内容区域-->
+	<div id="container" style="margin:10px 30px;">
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#positionModal">添加职位</button>
+
+		<table class="table table-bordered" id="table-List">
+			<thead>
+				<tr>
+					<td>序号</td>
+					<td>职位</td>
+					<td>薪水</td>
+					<td>公司</td>
+					<td>图片</td>
+					<td>操作</td>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>
+			
+		</table>
+
+		
+		<nav aria-label="Page navigation">
+			  <ul class="pagination" id="pagination">
+			    
+			  </ul>
+		</nav>
+
+
+		
+
+
+		<div class="modal fade" id="positionModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">职位添加</h4>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="position">职位名称</label>
+							<input type="email" class="form-control" id="position" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="salary">薪水待遇</label>
+							<input type="email" class="form-control" id="salary" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="company">公司名称</label>
+							<input type="email" class="form-control" id="company" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="logo">公司logo</label>
+
+							<input type="file" class="form-control" id="logo" placeholder="正确填写">
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						<button type="button" class="btn btn-primary" id="submitBtn">保存信息</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<!--修改信息-->
+
+		<div class="modal fade" id="positionModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">信息修改</h4>
+					</div>
+					<div class="modal-body">
+						<div class="form-group">
+							<label for="position1">职位名称</label>
+							<input type="email" class="form-control" id="position1" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="salary1">薪水待遇</label>
+							<input type="email" class="form-control" id="salary1" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="company1">公司名称</label>
+							<input type="email" class="form-control" id="company1" placeholder="正确填写">
+						</div>
+						<div class="form-group">
+							<label for="logo1">公司logo</label>
+							<div class="mm"></div>
+							<input type="file" class="form-control" id="logo1" placeholder="正确填写">
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+						<button type="button" class="btn btn-primary" id="updateBtn">提交信息</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+	<div id="footer"></div>
+
+
+	<script src="js/base/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/base/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/base/ejs.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/footer/footer.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/header/login.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/header/register.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/header/header.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pages/list/pagination.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pages/list/positionList.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pages/list/addPosition.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pages/list/list.js" type="text/javascript" charset="utf-8"></script>
+
+
+
+
+</body>
+
+</html>
